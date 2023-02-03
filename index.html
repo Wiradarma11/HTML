@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bali Interior</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <img src="./img/logoo.jpg" width="100px" height="100px">
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>HOME</li>
+            <li><a href="#"></a>LIFESTYLE</li>
+            <li><a href="#"></a>SHOP</li>
+            <li><a href="#"></a>ABOUT</li>
+            <a href="#"><i class="fa fa-search"></i></a>
+        </ul>
+        <img src="./img/btm.jpg" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1>Get Amazing Interior Design Right Now!</h1>
+            <!-- <div class="line"></div> -->
+            <p class="head"> AT EVERY STAGE. WE COULD SUPERVISE YOUR PROJECT, CONTROLLING ALL THE DETAILS AND CONSULTING THE BUILDERS.</p>
+            <!-- <a href="#" class="ctn">Learn More</a> -->
+        </div>
+    </header>
+
+    <!-- == Events ==-->
+    <section class="events">
+        <div class="tittle">
+            <h1>LATEST ARTICLES</h1>
+            <p>Browse through Bali Interiors latest articles. Discover the best things to do in Bali, where to stay in Bali & beyond and find exceptional villas for sale on the island.</p>
+            <!-- <div class="line"></div> -->
+        </div>
+        <div class="row">
+            <div class="col mb-3">
+                <!-- <img src="./img/bg.jpg" alt=""> -->
+                <h4>PRINTS COLLECTION</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam viverra lectus a diam lacinia, ut vulputate magna facilisis.
+                    Vivamus viverra sapien eu ipsum euismod, non ultrices lorem laoreet.
+                    Vivamus sed quam nec arcu sagittis euismod.
+                    Vivamus tempor nulla ut lacus mattis porta.</p>
+                <a href="#" class="ctn">SHOP</a>
+            </div>
+            <div class="col mb-3">
+                <!-- <img src="./img/bg.jpg" alt=""> -->
+                <h4>CHUSION COVER</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam viverra lectus a diam lacinia, ut vulputate magna facilisis.
+                    Vivamus viverra sapien eu ipsum euismod, non ultrices lorem laoreet.
+                    Vivamus sed quam nec arcu sagittis euismod.
+                    Vivamus tempor nulla ut lacus mattis porta.</p>
+                <a href="#" class="ctn">SHOP</a>
+            </div>
+            <div class="col mb-3">
+                <!-- <img src="./img/bg.jpg" alt=""> -->
+                <h4>THROWS COLLECTION</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam viverra lectus a diam lacinia, ut vulputate magna facilisis.
+                    Vivamus viverra sapien eu ipsum euismod, non ultrices lorem laoreet.
+                    Vivamus sed quam nec arcu sagittis euismod.
+                    Vivamus tempor nulla ut lacus mattis porta.</p>
+                <a href="#" class="ctn">SHOP</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="text">
+            <div>
+            <h1>BUILD DIARY</h1>
+        <strong><p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nostrum enim quibusdam aspernatur accusantium assumenda aut vitae obcaecati tempora blanditiis ullam, accusamus ipsa temporibus. Molestias.</p></strong>
+        <!-- <a href="#" class="ctn">Learn More</a> -->
+    </div>
+        <div class="row">
+            <div class="item1">
+                <!-- <img src="./img/bg.jpg" alt=""> -->
+                <h4 class="font">Events</h4>
+            </div>
+            <div class="item1">
+                <!-- <img src="./img/bg.jpg" alt=""> -->
+                <h4 class="font">Shop</h4>
+            </div>
+            <div class="item1">
+                <!-- <img src="./img/bg.jpg" alt=""> -->
+                <h4 class="font">Article</h4>
+            </div>
+            <div class="item1">
+                <!-- <img src="./img/bg.jpg" alt=""> -->
+                <h4 class="font">About</h4>
+            </div>
+            <div class="item1">
+                <!-- <img src="./img/bg.jpg" alt=""> -->
+                <h4 class="font">Venue</h4>
+            </div>
+            <div class="item1">
+                
+                <h4 class="font">Party</h4>
+            </div>
+        </div>
+        </div>
+    </section>
+     <section>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="./img/1.jpeg" class="img-fluid">
+            <h1>INTERIOR</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>    
+        </div>
+          <div class="grid-item">
+            <img src="./img/3.jpg" class="img-fluid">
+            <h1>INTERIOR</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>   
+          </div>
+          <div class="grid-item">
+            <img src="./img/4.jpg" class="img-fluid">
+            <h1>INTERIOR</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>   
+          </div>  
+          <div class="grid-item">
+            <img src="./img/2.jpg" class="img-fluid">
+            <h1>INTERIOR</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>   
+          </div>
+        </div>
+     </section>
+     <section class="footer">
+        <h1 class="end">for your visit  <a href="#" class="ctn">Learn More</a> </h1> 
+     </section>
+     
+</body>
+<script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector ('.nav-links')
+
+    menuBtn. addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
